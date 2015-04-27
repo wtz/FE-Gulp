@@ -1,0 +1,24 @@
+{
+  "name": "bf-FE",
+  "version": "0.0.1",
+  "authors": [
+    "wutianzhi@bifeng.com"
+  ],
+  "description": "WEB-FE.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "scss",
+    ".sass-cache",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.10.2"
+  },
+  "engines": {
+    "node": ">=v0.10.5"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.17"
+  }
+}

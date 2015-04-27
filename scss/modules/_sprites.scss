@@ -1,0 +1,246 @@
+@import "mixins/retina-sprites";
+
+$sprites: sprite-map("payicon/*.png",$spacing: 60px);
+$sprites2x: sprite-map("payicon-x2/*.png",$spacing: 60px);   
+
+$spritesMenu: sprite-map("menu/*.png",$spacing: 60px);
+$spritesMenu2x: sprite-map("menu-x2/*.png",$spacing: 60px);   
+
+
+
+.payicon-bankcard{
+	@include retina-sprite(bankcard,$hover:false, $active:false);
+	display:inline-block;
+	vertical-align: -10px;margin-right: 10px;
+}
+.payicon-zfb{
+	
+	@include retina-sprite(zfb, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;	
+}
+.payicon-mobile{
+	
+	@include retina-sprite(mobile, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;
+}
+.payicon-paycard{
+	@include retina-sprite(paycard, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;	
+}
+.payicon-point{
+	
+	@include retina-sprite(point, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;	
+}
+.payicon-sdp{
+	
+
+	@include retina-sprite(sdp, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;	
+}
+.payicon-g{
+	@include retina-sprite(g, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;
+}
+.payicon-weixin{
+
+	@include retina-sprite(weixin, $hover:false, $active:false);
+	display:inline-block;
+	
+	vertical-align: -10px;
+	margin-right: 10px;	
+}
+.payicon-youni{
+	@include retina-sprite(youni, $hover:false, $active:false);
+	display:inline-block;
+	vertical-align: -10px;
+	margin-right: 10px;	
+}
+
+
+
+
+
+//menu icon
+.menu-desk{
+	@include retina-sprite(desk,$spritesMenu,$spritesMenu2x,$hover:true, $active:false);
+	display:inline-block;
+	vertical-align: -9px;
+	margin-right: 15px;	
+}
+
+
+
+
+
+
+
+.menu-g{
+	@include retina-sprite(g,$spritesMenu,$spritesMenu2x,$hover:true, $active:false);
+	display:inline-block;
+	vertical-align: -10px;
+	margin-right: 15px;
+}
+
+
+
+
+
+.menu-search{
+	@include retina-sprite(search,$spritesMenu,$spritesMenu2x,$hover:true, $active:false);
+	display:inline-block;
+	vertical-align: -10px;
+	margin-right: 15px;
+}
+
+
+.menu-service{
+	@include retina-sprite(service,$spritesMenu,$spritesMenu2x,$hover:true, $active:false);
+	display:inline-block;
+	vertical-align: -9px;
+	margin-right: 15px;
+}
+
+
+
+.menu-quit{
+	@include retina-sprite(quit,$spritesMenu,$spritesMenu2x,$hover:true, $active:false);
+	display:inline-block;
+	vertical-align: -10px;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bank_icon
+
+$spritesBank: sprite-map("bankicon/*.png",$spacing: 60px);
+$spritesBank2x: sprite-map("bankicon-x2/*.png",$spacing: 60px);
+
+.gongshang{
+	@include retina-sprite(gongshang,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.beijing{
+	@include retina-sprite(beijing,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.dalian{
+	@include retina-sprite(dalian,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.guangda{
+	@include retina-sprite(guangda,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.guangfa{
+	@include retina-sprite(guangfa,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.huaxia{
+	@include retina-sprite(huaxia,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.jianshe{
+	@include retina-sprite(jianshe,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+
+.jiaotong{
+	@include retina-sprite(jiaotong,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}.minsheng{
+	@include retina-sprite(minsheng,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}.ningbo{
+	@include retina-sprite(ningbo,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.nongye{
+	@include retina-sprite(nongye,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.pufa{
+	@include retina-sprite(pufa,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.shanghai{
+	@include retina-sprite(shanghai,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.shengjing{
+	@include retina-sprite(shengjing,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.shenzhenfazhan{
+	@include retina-sprite(shenzhenfazhan,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}.xingye{
+	@include retina-sprite(xingye,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}.yinlian{
+	@include retina-sprite(yinlian,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+.youzheng{
+	@include retina-sprite(youzheng,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.zhaoshang{
+	@include retina-sprite(zhaoshang,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.zhongguo{
+	@include retina-sprite(zhongguo,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+.zhongxin{
+	@include retina-sprite(zhongxin,$spritesBank,$spritesBank2x,$hover:false, $active:false);
+	display:inline-block;
+}
+
+
+.sndalogo{height: 30px; width: 30px; margin-left: 8px; background: url(../../../img/hor/logo.png) no-repeat; left: 6px;}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .sndalogo{
+     background: url(../../../img/hor/logo_2x.png) no-repeat;
+     background-size: 28px auto;
+	top: 6px; 
+  }
+}

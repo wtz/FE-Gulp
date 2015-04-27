@@ -1,0 +1,23 @@
+.siderbar {
+	position:fixed;
+	width:30%;
+	height:100%;
+	background-color:$siderBg;
+	float:left;
+	left:0;
+	top:48px;
+	border-right:1px dotted #999;
+	.inner{
+		padding-top:15px;
+		padding-left:15px;
+		.money{
+			color:$redColor;
+		}
+	}
+	.sider_title{
+		padding-bottom:20px;
+		font-weight:normal;
+		font-size:20px;
+	}
+	.sider_product{font-size:18px;}
+}

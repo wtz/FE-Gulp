@@ -1,0 +1,88 @@
+@import "compass/css3";
+@import "../var/var";
+.btn{
+	display:inline-block;
+	width:100%;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	margin: 0 auto;
+	color:white;
+	font-size:16px;
+	background-color:$btnBg;
+	@include border-radius(4px);
+	-webkit-tap-highlight-color: $btnBg;
+	 border:0;
+	margin-bottom:10px;
+}
+.btn_white{
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(white));
+	border:1px solid $btnBg;
+	color:grey;
+}
+
+.btn_pos{position:absolute;left:0px;bottom:10px;margin-left: 33%;width:63%;}
+.posbtn_heihgt{height:10px;}
+
+
+
+   .btn_clear2{
+		position: absolute;
+		right: 0;
+		top: 0;
+		display: block;
+		width: 40px;
+		height: 43px;
+		z-index: 10;right: 62px;
+		top: 3px;
+		
+	}
+
+	a.btn_clear:before {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 3px;
+	height: 20px;
+	background: #888;
+	-webkit-transform: rotate(-45deg);
+	right: 25px;
+	top: 10px;
+}
+
+
+a.btn_clear:after {
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	display: block;
+	content: '';
+	width: 3px;
+	height: 20px;
+	background: #888;
+	-webkit-transform: rotate(41deg);
+}
+
+.focusTopIpt{
+	width:100%;height:100%;background:rgb(255,255,255);position:absolute;left:0;top:0;z-index:8888
+}
+#placeholder{position:absolute;top:14px;left:15px;color: #999;}
+.topiner{
+	padding:6px 60px 6px 10px;background:white;position: relative;
+}
+
+.topiner input[type="tel"],.topiner input[type="text"],.topiner input[type="password"],
+.topiner input[type="number"]
+{
+	background-color: #f2f2f2;
+}
+
+.btn_iptcomplete{
+	position:absolute;
+	width: 60px;
+	right:0;top:2px;
+	line-height: 44px;
+	text-align: center;
+	color:$redColor;
+	font-size: 16px;
+}
