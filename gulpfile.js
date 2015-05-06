@@ -92,7 +92,8 @@ gulp.task('compass', function() {
           image: staticConfig['img'],
           sass: './scss/',
           javascript: staticConfig['js'],
-          comments:true
+          comments:true,
+          sourcemap: true // 生成souceMap 
           // task:'watch'// task 这个选项不能加，加上就代表是compass watch 了。不能自动更新
         }));
 });
